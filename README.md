@@ -71,10 +71,6 @@ python train.py --modality cross_modal --classifier_head linear --classifier_ini
 python train.py --modality cross_modal --classifier_head linear --classifier_init zeroshot --logit 4.60517 --hyperparams linear --dataset oxford_pets --train-shot 4 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation none --image-views 0
 ```
 
-```
-python train_updated.py --modality cross_modal --classifier_head linear --classifier_init zeroshot --logit 4.60517 --hyperparams linear --dataset oxford_pets --train-shot 4 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation hand_crafted --image-augmentation none --image-views 0
-```
-
 FOR OUR MODIFIED EXPERIMENTS, you can run:
 ```
 python train_updated_1.py --modality cross_modal --classifier_head linear --classifier_init zeroshot --logit 4.60517 --hyperparams linear --dataset oxford_pets --train-shot 16 --seed 1 --clip-encoder RN50 --image-layer-idx 0 --text-augmentation template_mining --image-augmentation none --image-views 0
